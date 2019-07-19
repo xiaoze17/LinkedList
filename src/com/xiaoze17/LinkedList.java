@@ -48,6 +48,17 @@ public class LinkedList<E> {
         size++;
     }
 
+    //递归实现链表插入操作
+    //未完成，不会做，现在
+    public void recurAdd(int index, E e) {
+        return;
+
+    }
+
+    private void recurAdd(int index, E e, int l) {
+
+    }
+
     public void addFirst(E e) {
         add(0, e);
     }
